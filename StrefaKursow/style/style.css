@@ -1,11 +1,10 @@
-/* Selektor */
-
+/* Selektor elementów*/
 h1 {
     color: green;
     font-size: 45px;
 }
 
-div p {
+p {
     color: blue;
     font-size: 30px;
 }
@@ -21,4 +20,17 @@ li a {
 
 body {
     background-color: beige;
+}
+
+/* Selektor klasy i ID*/
+.paraf {
+    color: aqua;
+}
+
+.li-item {
+    font-weight: bold;
+}
+
+#li-item2 {
+    color: pink;
 }
