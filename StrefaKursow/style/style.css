@@ -1,0 +1,20 @@
+/* Selektor */
+
+h1 {
+    color: green;
+    font-size: 45px;
+}
+
+div p {
+    color: blue;
+    font-size: 30px;
+}
+
+div article {
+    color: gold;
+    font-size: 40px;
+}
+
+li a {
+    color: brown;
+}
