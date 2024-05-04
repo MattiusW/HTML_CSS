@@ -1,0 +1,32 @@
+/* Selektory atrybutów */
+a[rel] {
+    color: red;
+}
+
+/* ~ sprawdza czy nazwa selektora chociaż częsciowo się zgadza */
+
+/* * - sprawdza cale wartości */
+
+a[rel*='comedy'] {
+    color: green;
+}
+
+a[rel='biographical']{
+    font-weight: bold;
+}
+
+/* Inne selektory atrybutów */
+/* Można używać regexów */
+a[title^='Fr']{
+    color: yellow;
+}
+
+/* Poczatek tytulu */
+a[title^='CSS']{
+    font-size: 24px;
+}
+
+/* Koniec tytulu */
+a[title$='ów']{
+    color:bisque
+}
