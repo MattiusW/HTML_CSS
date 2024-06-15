@@ -1,0 +1,62 @@
+/* 
+Rozdzielczosci ekranu (BREAKPOINTY)
+
+575px / 640px - mobilne
+992px / 1024px - tablet
+1200px / 1280px - maly desktop
+    
+*/
+
+
+.box {
+    font-size: 100px;
+    margin: 2px;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 2%;
+    border: 3px solid slateblue;
+}
+
+.box-flex{
+    margin: 5px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-flex {
+    display: flex;
+    height: 100%;
+}
+
+.box-header {
+    background-color: blueviolet;
+    height: 10%;
+}
+
+.box-sidebar {
+    background-color: salmon;
+    height: 100%;
+    width: 30%;
+}
+
+.box-aside {
+    background-color: seagreen;
+    height: 100%;
+    width: 70%;
+}
+
+.box-footer {
+    background-color: pink;
+    height: 15%;
+}
+
+.box-section {
+    background-color: plum;
+    height: 100%;
+    width: 100%;
+}
